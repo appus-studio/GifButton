@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "GifButton"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "'GifButton' is an animated buton."
 s.homepage     = "https://github.com/alexey-kubas-appus/GifButton"
 s.license      = { :type => "MIT", :file => "LICENSE" }
