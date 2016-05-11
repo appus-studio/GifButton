@@ -14,7 +14,7 @@ s.summary      = "'GifButton' is an animated buton."
 s.homepage     = "https://github.com/alexey-kubas-appus/GifButton"
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "Kosyi Vlad" => "vlad.kosyi@appus.me" }
-s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git", :branch => "master", :tag => s.version.to_s}
+s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git", :tag => s.version.to_s}
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 s.source_files = 'KVGifButton/*.swift'
@@ -22,7 +22,5 @@ s.resource_bundles = {
 'GifButton' => ['Pod/Assets/*.png']
 }
 
-# s.public_header_files = "Classes/**/*.h"
-# s.frameworks = 'UIKit', 'MapKit'
 
 end
