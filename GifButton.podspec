@@ -8,10 +8,10 @@
 
 Pod::Spec.new do |s|
 
-s.name         = "GifButton"
-s.version      = "0.0.1"
-s.summary      = "'GifButton' is an animated buton."
-s.homepage     = "https://github.com/alexey-kubas-appus/GifButton"
+s.name         = 'GifButton'
+s.version      = '0.0.1'
+s.summary      = ''GifButton' is an animated buton'
+s.homepage     = 'https://github.com/alexey-kubas-appus/GifButton'
 s.license      = { :type => "MIT", :file => "LICENSE" }
 s.author       = { "Kosyi Vlad" => "vlad.kosyi@appus.me" }
 s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git", :tag => s.version.to_s}
