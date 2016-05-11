@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/alexey-kubas-appus/GifButton"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Kosyi Vlad" => "vlad.kosyi@appus.me" }
-  s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git", :branch => "master", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git"}
   s.platform     = :ios, '8.0'
   s.requires_arc = true
   s.source_files = 'GifButton/*{swift}'
