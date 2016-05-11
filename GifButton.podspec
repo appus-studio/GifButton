@@ -18,8 +18,8 @@ s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git"
 s.platform     = :ios, '8.0'
 s.requires_arc = true
 s.source_files = "GifButton/*.swift"
-s.resource_bundles = {
-'GifButton' => ['Pod/Assets/*.png']
+#s.resource_bundles = {
+#'GifButton' => ['Pod/Assets/*.png']
 }
 
 
