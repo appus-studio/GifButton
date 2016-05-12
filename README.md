@@ -19,9 +19,9 @@ pod 'GifButton'
 
 ##Usage example:
 
-gifButton.imagesArray.appendContentsOf(imageArray) \n
-gifButton.repeatCount = 1 \n
-gifButton.animationDuration = 2 \n
+gifButton.imagesArray.appendContentsOf(imageArray) /n
+gifButton.repeatCount = 1 /n
+gifButton.animationDuration = 2 
 
 gifButton.startAnimation()
 
