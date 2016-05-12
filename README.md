@@ -27,6 +27,8 @@ gifButton.animationDuration = 2
 
 gifButton.startAnimation()
 
+![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/usage.png)
+
 Developed By
 ------------
 
