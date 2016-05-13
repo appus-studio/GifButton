@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 
-s.name         = "GifButton"
+s.name         = "GifButtonObjC"
 s.version      = "0.0.1"
 s.summary      = "'GifButton' is an animated buton"
 s.homepage     = "https://github.com/alexey-kubas-appus/GifButton"
