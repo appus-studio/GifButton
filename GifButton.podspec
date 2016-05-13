@@ -17,7 +17,7 @@ s.author       = { "Kosyi Vlad" => "vlad.kosyi@appus.me" }
 s.source       = { :git => "https://github.com/alexey-kubas-appus/GifButton.git", :branch => "master", :tag => s.version.to_s}
 s.platform     = :ios, '8.0'
 s.requires_arc = true
-s.source_files = "GifButton/*.{h,m,swift}"
+s.source_files = "GifButton/*"
 
 
 end
