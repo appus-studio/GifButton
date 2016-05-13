@@ -9,8 +9,7 @@
 import Foundation
 import UIKit
 
-@IBDesignable
-class GifButton : UIButton {
+@IBDesignable public class GifButton : UIButton {
   
   
   /**
