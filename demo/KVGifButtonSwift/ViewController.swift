@@ -21,9 +21,9 @@ class ViewController: UIViewController {
         self.imageArray.append(UIImage(named: "\(i)")!)
       }
 
-        gifButton.imagesArray.appendContentsOf(imageArray)
-        gifButton.repeatCount = 1
-        gifButton.animationDuration = 2
+//        gifButton.imagesArray.appendContentsOf(imageArray)
+//        gifButton.repeatCount = 2
+//        gifButton.animationDuration = 3
     }
 
     override func didReceiveMemoryWarning() {

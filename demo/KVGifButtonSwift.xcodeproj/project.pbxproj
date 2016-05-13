@@ -13,6 +13,8 @@
 		05B6045C1CE1FE8D00E1D65F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05B6045B1CE1FE8D00E1D65F /* Assets.xcassets */; };
 		05B6045F1CE1FE8D00E1D65F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05B6045D1CE1FE8D00E1D65F /* LaunchScreen.storyboard */; };
 		05B604691CE2001100E1D65F /* GifButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B604681CE2001100E1D65F /* GifButton.swift */; };
+		459B8D271CE5131C00F01845 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 459B8D261CE5131C00F01845 /* gif.gif */; };
+		459B8D311CE532A300F01845 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 459B8D301CE532A300F01845 /* UIImage+animatedGIF.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,10 @@
 		05B6045E1CE1FE8D00E1D65F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05B604601CE1FE8D00E1D65F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05B604681CE2001100E1D65F /* GifButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifButton.swift; sourceTree = "<group>"; };
+		459B8D261CE5131C00F01845 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
+		459B8D281CE5164900F01845 /* KVGifButtonSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KVGifButtonSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		459B8D2F1CE532A300F01845 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		459B8D301CE532A300F01845 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +65,14 @@
 				05B604541CE1FE8D00E1D65F /* AppDelegate.swift */,
 				05B604561CE1FE8D00E1D65F /* ViewController.swift */,
 				05B604681CE2001100E1D65F /* GifButton.swift */,
+				459B8D2F1CE532A300F01845 /* UIImage+animatedGIF.h */,
+				459B8D301CE532A300F01845 /* UIImage+animatedGIF.m */,
 				05B604581CE1FE8D00E1D65F /* Main.storyboard */,
+				459B8D261CE5131C00F01845 /* gif.gif */,
 				05B6045B1CE1FE8D00E1D65F /* Assets.xcassets */,
 				05B6045D1CE1FE8D00E1D65F /* LaunchScreen.storyboard */,
 				05B604601CE1FE8D00E1D65F /* Info.plist */,
+				459B8D281CE5164900F01845 /* KVGifButtonSwift-Bridging-Header.h */,
 			);
 			path = KVGifButtonSwift;
 			sourceTree = "<group>";
@@ -127,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B6045F1CE1FE8D00E1D65F /* LaunchScreen.storyboard in Resources */,
+				459B8D271CE5131C00F01845 /* gif.gif in Resources */,
 				05B6045C1CE1FE8D00E1D65F /* Assets.xcassets in Resources */,
 				05B6045A1CE1FE8D00E1D65F /* Main.storyboard in Resources */,
 			);
@@ -140,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05B604691CE2001100E1D65F /* GifButton.swift in Sources */,
+				459B8D311CE532A300F01845 /* UIImage+animatedGIF.m in Sources */,
 				05B604571CE1FE8D00E1D65F /* ViewController.swift in Sources */,
 				05B604551CE1FE8D00E1D65F /* AppDelegate.swift in Sources */,
 			);
@@ -256,10 +268,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KVGifButtonSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appus.KVGifButtonSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KVGifButtonSwift/KVGifButtonSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -267,10 +282,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = KVGifButtonSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.appus.KVGifButtonSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KVGifButtonSwift/KVGifButtonSwift-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -293,6 +310,7 @@
 				05B604651CE1FE8D00E1D65F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
