@@ -3,13 +3,15 @@
 //  testAnimation
 //
 //  Created by Vlad Kosyi on 5/10/16.
-//  Copyright © 2016 Vlad Kosyi. All rights reserved.
+//  Copyright (c) 2014 Appus Studio LLC. All rights reserved.
 //
 
 #import "GifButton.h"
 #import "UIImage+animatedGIF.h"
 
 @interface GifButton ()
+
+@property (strong, nonatomic) NSArray *imagesArray;
 
 @end
 
@@ -47,6 +49,15 @@
   [self updateImagesArray:imagesArray];
 }
 
+/*!
+ 
+ Func takes array of images from imagesArray if there is no whole GIF.
+ If array nil, func search whole Gif and parce array of images and gif duration.
+ If user set gif duration 0 -> gif duration use from parce of Gif
+ 
+ @param imagesArray Array of images for create Gif.
+ */
+
 - (void) updateImagesArray:(NSArray *)imagesArray {
   
   if (self.imagesArray == nil) {
@@ -82,6 +93,11 @@
   }
   
 }
+
+/**
+ 
+  Reverse array of images
+ */
 
 
 - (void)starAnimationDidFinish {
