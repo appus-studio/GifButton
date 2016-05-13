@@ -29,12 +29,6 @@
 */
 + (UIImage * _Nullable)animatedImageWithAnimatedGIFURL:(NSURL * _Nonnull)theURL;
 
-/*
- NSDictionary *image = [UIImage animatedImageDictionaryWithAnimatedGIFData:theURL];
- 
- I interpret the contents of `theURL` as a GIF.  I create  `NSDictionary` with NSAray images of gif and Gif animation duration with key "array" and "duration".
- */
-
 + (NSDictionary * _Nullable) animatedImageDictionaryWithAnimatedGIFData:(NSData * _Nonnull)data;
 
 @end

@@ -11,7 +11,6 @@
 
 @implementation UIImage (animatedGIF)
 
-
 static int delayCentisecondsForImageAtIndex(CGImageSourceRef const source, size_t const i) {
     int delayCentiseconds = 1;
     CFDictionaryRef const properties = CGImageSourceCopyPropertiesAtIndex(source, i, NULL);
@@ -118,7 +117,6 @@ static NSDictionary *animatedImageDictionaryWithAnimatedGIFImageSource(CGImageSo
   NSArray *const frames = frameArray(count, images, delayCentiseconds, totalDurationCentiseconds);
 
   CGFloat durationTime = (NSTimeInterval)totalDurationCentiseconds / 100.0;
-  //dicr with parameters: array and duration 
   NSDictionary *dict = @{@"array" : frames,
                          @"duration" :  [NSNumber numberWithInt:durationTime] };
   releaseImages(count, images);
