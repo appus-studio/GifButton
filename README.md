@@ -11,23 +11,23 @@ Made by [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/maste
 
 # Demo
 ##Example animating
-![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/demo.gif)
-
+![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/gif.gif)
+##Example configuring
+![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/usage1.png)
+![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/usage2.png)
 ```Ruby
 pod 'GifButton'
 ```
 
 ##Usage example:
 
-gifButton.imagesArray.appendContentsOf(imageArray) 
+All settings setting in IB StoryBoard.
 
-gifButton.repeatCount = 1 
+self.gifButton.imagesArray = self.imageArray; //if you want use array of image programmatically 
 
-gifButton.animationDuration = 2 
+self.gifButton.animationDuration = 2; // set animation of duration programmatically
 
-gifButton.startAnimation()
-
-![](https://raw.githubusercontent.com/alexey-kubas-appus/GifButton/master/Resources/usage.png)
+self.gifButton.repeatCount = 1; // set repeat count programmatically 
 
 Developed By
 ------------
